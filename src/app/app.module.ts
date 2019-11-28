@@ -8,12 +8,14 @@ import { HeaderComponent } from './header/header.component';
 import { AppComponent } from './app.component';
 import { XyzComponent } from './xyz/xyz.component';
 import { from } from 'rxjs';
+import { StudentComponent } from './student/student.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     XyzComponent,
-    HeaderComponent
+    HeaderComponent,
+    StudentComponent
   ],
   imports: [
     HttpClientModule,
